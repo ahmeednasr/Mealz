@@ -2,8 +2,8 @@ package com.example.mealzapp
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import dagger.hilt.android.AndroidEntryPoint
 import androidx.activity.viewModels
+import dagger.hilt.android.AndroidEntryPoint
 import androidx.lifecycle.lifecycleScope
 import androidx.recyclerview.widget.RecyclerView
 import kotlinx.coroutines.launch
