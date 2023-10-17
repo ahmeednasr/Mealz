@@ -13,7 +13,7 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Mealz"
+rootProject.name = "MealzApp"
 include ':app'
 include ':data'
 include ':domain'

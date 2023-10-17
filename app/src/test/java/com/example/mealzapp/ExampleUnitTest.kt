@@ -1,4 +1,4 @@
-package com.example.mealz
+package com.example.mealzapp
 
 import org.junit.Test
 
