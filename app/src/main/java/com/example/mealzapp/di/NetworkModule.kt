@@ -25,7 +25,7 @@ object NetworkModule {
     @Singleton
     fun provideRetrofit(okHttpClient: OkHttpClient): Retrofit {
         return Retrofit.Builder()
-            .baseUrl("www.themealdb.com/api/json/v1/1/")
+            .baseUrl("https://www.themealdb.com/api/json/v1/1/")
             .client(okHttpClient)
             .addConverterFactory(GsonConverterFactory.create())
             .build()
